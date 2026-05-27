@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Context Reminder"
+  short_description: "Remind before Codex context compression"
+  default_prompt: "Use $codex-context-reminder to check my Codex context usage and tell me whether I should create a handoff."

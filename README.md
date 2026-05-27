@@ -67,6 +67,20 @@ Test notification behavior without waiting for a large context:
 codex-context-reminder --warn 1 --urgent 2 --notify
 ```
 
+## Codex Skill
+
+This repository also includes a Codex Skill wrapper:
+
+```text
+skills/codex-context-reminder/
+```
+
+The Skill is useful when you want Codex to install or run the reminder, interpret the output, decide whether a handoff is needed, and generate a copy-ready handoff prompt. It bundles a standalone script at:
+
+```text
+skills/codex-context-reminder/scripts/token_context_reminder.py
+```
+
 ## Output
 
 Example:

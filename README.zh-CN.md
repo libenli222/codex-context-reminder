@@ -67,6 +67,20 @@ codex-context-reminder --file ~/.codex/sessions/2026/05/27/rollout-example.jsonl
 codex-context-reminder --warn 1 --urgent 2 --notify
 ```
 
+## Codex Skill
+
+这个仓库也包含一个 Codex Skill 包装层：
+
+```text
+skills/codex-context-reminder/
+```
+
+当你希望 Codex 帮你安装或运行提醒器、解释输出、判断是否需要 handoff、生成可复制的交接摘要提示词时，可以使用这个 Skill。它内置了一份 standalone 脚本：
+
+```text
+skills/codex-context-reminder/scripts/token_context_reminder.py
+```
+
 ## 输出示例
 
 ```text
