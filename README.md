@@ -1,5 +1,7 @@
 # Codex Context Reminder
 
+[简体中文](README.zh-CN.md) | English
+
 A local-only CLI that watches Codex session token usage and reminds you to create a handoff summary before context compression gets risky.
 
 It reads local `token_count` events from `~/.codex/sessions/.../rollout-*.jsonl`, prints the latest context usage, and optionally shows a macOS notification when the current conversation crosses warning thresholds.
